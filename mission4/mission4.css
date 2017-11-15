@@ -1,71 +1,70 @@
-@media screen and (min-width: 320px) {
-
-
-
+@media screen and (max-width: 320px) {
+*{display: none;}
+}
     body {
         background-color: #eff0f4;
         margin: 0
     }
 
-    .container {
+    /*.container {
         margin: 0
-    }
+    }*/
 
     .head {
         background-color: #68cdd5;
         height: 88px;
-        line-height: 87.5px;
+        line-height: 88px;
         padding: 0 30px;
         text-align: center;
+        color: #fff;;
     }
 
-    [class*="head-"] {
-        color: #fff;
+    /*[class*="head-"] {
         background-color: #68cdd5;
-        border: none;
-        margin: auto 0;
-    }
+    border: none;
+    margin: auto 0;
+    }*/
 
     .head-close {
         float: left;
-        height: 88px;
+        padding: 22px 0;
         font-size: 32px;
-        font-weight: lighter;
+        /*font-weight: lighter;*/
     }
 
     .head-login {
         font-size: 38px;
-        font-weight: lighter;
+        /*font-weight: lighter;*/
     }
 
     .head-register {
         float: right;
         height: 88px;
         font-size: 32px;
-        font-weight: lighter;
+        /*font-weight: lighter;*/
     }
 
     .phonenum {
         margin-top: 16px;
-        width: 100%;
+        /*width: 100%;*/
         background-color: #fff;
     }
 
     .password {
         margin-top: 14px;
-        width: 100%;
+        /*width: 100%;*/
         background-color: #fff;
     }
 
     .login {
         margin-top: 69px;
         line-height: 100px;
-        background-color: #68cdd5;
-        color: #fff;
-        text-align: center;
-        font-size: 40px;
         border-radius: 10px;
         width: 100%;
+        background-color: #68cdd5;
+        /*color: #fff;*/
+        /*text-align: center;*/
+        font-size: 40px;
     }
 
     .forget {
@@ -81,7 +80,7 @@
         width: 100%;
         border: none;
         outline: none;
-        padding:0 120px;
+        text-indent:120px;
         background: no-repeat;
     }
     /*[type="text"]{width: 62%}*/
@@ -95,4 +94,4 @@
         /*height: 40px;*/
         /*padding: 0 40px;*/
     /*}*/
-}
+
