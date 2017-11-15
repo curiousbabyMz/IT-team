@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    justify-content: center;
+}
+.head>button{
+    display: flex;
+    flex:0 0 0;
+}
+.head>span{
+    display: flex;
+    flex:1 0 0;
+}
+
