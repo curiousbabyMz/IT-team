@@ -41,6 +41,7 @@ body{
 }
 .photo{
     margin: 76px 0 0 30px;
+    background-image: url(photo.jpg);
 }
 .name{
     margin: 116px 0 0 40px;
