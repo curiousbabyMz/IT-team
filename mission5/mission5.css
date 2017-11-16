@@ -1,20 +1,92 @@
-.container{
+*{margin: 0}
+body{
     display: flex;
-    flex-direction: column;
-}
-.head{
-    display: flex;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
     justify-content: center;
 }
-.head>button{
+.container{
     display: flex;
-    flex:0 0 0;
+    height: 100vh;
+    width:90.138vw;
+    flex-direction: column;
+
 }
-.head>span{
+.head{
+    height: 80px;
+    font-size: 35px;
+    color: #fff;
+    background-color: #68cdd5;
     display: flex;
-    flex:1 0 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+.back{
+    flex: none;
+}
+.main{
+    flex: 1;
+    background-color: #fff;
+    overflow: auto;
+}
+.foot{
+    display: flex;
+    background-color:rgba(104,205,213,0.4);
+    justify-content: center;
+    margin-bottom:40px;
+}
+.person-info{
+    height: 328px;
+    display: flex;
+    background-image: url(personal-background.jpg);
+    background-size:cover ;
+}
+.photo{
+    margin: 76px 0 0 30px;
+}
+.name{
+    margin: 116px 0 0 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    font-size: 45px;
+}
+.info>div{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #9e9e9e;
 }
 
+.l{
+    font-size: 40px;
+    color: #ddd;
+}
+
+
+
+
+button{
+    background-color: rgba(1,1,1,0);
+    border: none;
+    font-size: 20px;
+    color: #fff;
+}
+.foot>button{
+    background-color: #68cdd5;
+    color: #fff;
+    border-radius: 10px;
+    flex:none;
+    width:43.055vw;
+    height: 88px;
+    margin: 0 1.73611vw;
+}
+span{padding: 0 50px;}
+.gray{
+    color: #777;
+    flex: none;
+}
+.red{color: #c00}
+.blue{
+    color: #68cdd5;
+}
