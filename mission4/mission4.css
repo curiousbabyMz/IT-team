@@ -1,6 +1,12 @@
 @media screen and (max-width: 320px) {
 *{display: none;}
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    button:active{
+        color: #23918c;
+        /*background-color: rgb(164,265,273);*/
+    }
+}
     body {
         background-color: #eff0f4;
         margin: 0
