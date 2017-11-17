@@ -66,15 +66,21 @@ body{
 }
 .info>div{
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
     padding:6.944444vw 0;
     border-bottom: 1px solid #9e9e9e;
+
+}
+.info>div span{
+    flex: none;
+}
+.info>div span:nth-of-type(3){
+    flex: auto;
+    font-size: 5vw;
 }
 
-.l{
-    font-size: 5.5555vw;
-    color: #ddd;
-}
+
+
 
 
 
@@ -88,7 +94,7 @@ button{
 .foot>button{
     background-color: #68cdd5;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 1.3888888vw;
     flex:none;
     width:43.055vw;
     height: 12.2222vw;
@@ -108,4 +114,9 @@ span{padding: 0 6.944444vw;}
 .red{color: #c00}
 .blue{
     color: #68cdd5;
+}
+.l{
+    font-size: 5.5555vw;
+    color: #ddd;
+    padding: 0;
 }
