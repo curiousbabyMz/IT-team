@@ -41,19 +41,23 @@ body{
 .person-info{
     height: 45.55555vw;
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    /*align-items: baseline;*/
     background-image: url(personal-background.jpg);
     background-size:cover ;
 }
-.photo{
-    margin: 76px 0 0 30px;
+.photo {
+
+    margin: 10.55555vw 0 0 4.1666666vw;
     background-image: url(photo.jpg);
-    background-size: 169px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 23.4722222vw;
 }
 .name{
-    margin: 116px 0 0 40px;
+    margin: 16.111111vw 0 0 5.5555555vw;
+    font-size: 4vw;
 }
+
 .info{
     display: flex;
     flex-direction: column;
@@ -90,6 +94,12 @@ button{
     height: 12.2222vw;
     margin: 0 1.73611vw;
 }
+@media screen and (min-width: 768px) {
+    button:hover {
+        color: #9df3ff
+    }
+}
+button:active{color: #23918c}
 span{padding: 0 6.944444vw;}
 .gray{
     color: #777;
