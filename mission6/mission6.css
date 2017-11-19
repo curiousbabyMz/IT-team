@@ -1,0 +1,86 @@
+*{margin: 0}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.head{
+    flex: 1;
+    height: 88px;
+    line-height: 88px;
+    background-color:#5ac0ce ;
+    text-align: center;
+
+}
+
+.main{
+    overflow: auto;
+    padding: 0 30px;
+    height: 400px;
+
+}
+.nav{
+    display: inline-block;
+    padding-top: 6px;
+    padding-left: 63px;
+}
+.nav>button{
+    background-color: #4995a3;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 32px;
+    padding: 15px 30px;
+    margin: 0 -10px;
+}
+.map{
+    display: inline;
+    float: right;
+    padding-right:20px;
+}
+.map>button{
+    background-image: url(images/map.png);
+    background-size: auto;
+    padding:22px;
+}
+
+.foot{
+    flex: 1;
+    background-color: #f8fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.home{
+    background-image: url(images/sprite.png);
+    color: #5ac0ce;
+    padding: 52px 7px 0;
+
+}
+.write{
+    padding: 0 14%;
+}
+.write>button{
+    background-image: url(images/sprite.png);
+    background-position: -100px 0;
+    background-size: auto;
+    padding: 47px;
+}
+.self{
+    background-image: url(images/sprite.png);
+    background-position: 0 -150px;
+    color: #999999;
+    padding:52px 5px 0;
+}
+
+
+button{
+    padding: 0;
+    background-color: rgba(1,1,1,0);
+    background-repeat: no-repeat;
+    border: none;
+    font-size: 16px;
+}
