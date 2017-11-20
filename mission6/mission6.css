@@ -1,4 +1,8 @@
 *{margin: 0}
+body{
+    width:100vw;
+    height: 100vh;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -22,8 +26,8 @@
     background-color: #4995a3;
     border-radius: 10px;
     color: #fff;
-    font-size: 32px;
-    padding: 15px 30px;
+    font-size: 30px;
+    padding: 10px 20px;
     margin: 0 -10px;
 }
 .map{
@@ -47,7 +51,7 @@
     width: 33.33%;
     text-align: center;
     background-image: url(images/sprite.png);
-    background-position: -50px -100px;
+    background-position: 0 -200px;
 }
 
 .main {
@@ -62,9 +66,19 @@
 .item{
     padding: 10px 0;
     border-bottom: 1px solid #b3b3b3;
+    white-space: nowrap;
 }
-.item-left{display: inline-block;}
-.item-left *{margin: 10px auto }
+.item-left{
+    display: inline-block;
+    width: 50%;
+}
+.item-left *{
+    margin: 10px auto ;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    width: 100%;
+}
 .item-right{float: right;
 }
 .timetitle{
