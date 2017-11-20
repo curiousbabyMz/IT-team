@@ -6,26 +6,17 @@
     height: 100vh;
 }
 
-
 .head{
     flex: 1;
     height: 88px;
     line-height: 88px;
     background-color:#5ac0ce ;
     text-align: center;
-
-}
-
-.main{
-    overflow: auto;
-    padding: 0 30px;
-    height: 400px;
-
 }
 .nav{
     display: inline-block;
     padding-top: 6px;
-    padding-left: 63px;
+    padding-left: 64px;
 }
 .nav>button{
     background-color: #4995a3;
@@ -45,6 +36,67 @@
     background-size: auto;
     padding:22px;
 }
+.selectlist{
+    flex: 1;
+}
+.select{
+    float: left;
+    font-size: 25px;
+    color: #9e9e9e;
+    padding: 20px 0;
+    width: 33.33%;
+    text-align: center;
+    background-image: url(images/sprite.png);
+    background-position: -50px -100px;
+}
+
+.main {
+    overflow: auto;
+    padding: 0 30px;
+    height: 400px;
+    font-size: 20px;
+    /*background-color: green;*/
+}
+.gray{color: #b3b3b3}
+.red{color: #e83900}
+.item{
+    padding: 10px 0;
+    border-bottom: 1px solid #b3b3b3;
+}
+.item-left{display: inline-block;}
+.item-left *{margin: 10px auto }
+.item-right{float: right;
+}
+.timetitle{
+    background-image: url(images/sprite.png);
+    background-position: -200px -50px ;
+    background-repeat: no-repeat;
+    line-height: 24px;
+    padding-left: 40px ;
+}
+.time{
+
+}
+.address{
+    background-image: url(images/sprite.png);
+    background-position: -200px 0 ;
+    background-repeat: no-repeat;
+    line-height: 24px;
+    padding-left: 40px ;
+}
+.pay{
+    display: inline-block;
+    font-size: 25px;
+}
+.item-in{
+    display: inline-block;
+    background-image: url(images/sprite.png);
+    background-position: -50px 0;
+    background-repeat: no-repeat;
+    padding:20px 17px;
+
+}
+
 
 .foot{
     flex: 1;
