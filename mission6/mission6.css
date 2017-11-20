@@ -51,6 +51,7 @@ body{
     width: 33.33%;
     text-align: center;
     background-image: url(images/sprite.png);
+    height: 80px;
     background-position: 0 -200px;
 }
 
