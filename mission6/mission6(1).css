@@ -41,11 +41,11 @@ body {
     padding: 8px 13px;
     margin: 0 -8px;
 }
-
-.nav > button:focus {
+#btn1{
     background-color: #fff;
     color: #5ac0ce;
 }
+
 
 .map {
     display: inline;

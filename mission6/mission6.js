@@ -1,4 +1,4 @@
-function newitem() {
+function newItem() {
     var newinfo = new Array();
 
     do {
@@ -44,4 +44,11 @@ function newitem() {
         "                </div>\n" +
         "                </div>";
     document.getElementsByClassName('main')[0].appendChild(nitem);
+}
+
+function btnChange(a) {
+    // a.className="btn1";
+    a.setAttribute("id","btn1");
+    // document.write(a.className);
+    // document.write(a.parentNode.innerHTML);
 }
