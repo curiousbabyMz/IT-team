@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,height=device-height,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+    <meta name="viewport"
+          content="width=device-width,height=device-height,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
     <title>mission6</title>
     <link rel="stylesheet" href="mission6(1).css">
 </head>
@@ -14,13 +15,36 @@
                 <button>找雇主</button>
                 <button>找护工</button>
             </div>
-            <div class="map"><button></button></div>
+            <div class="map">
+                <button></button>
+            </div>
         </div>
     </div>
     <div class="selectlist"><!--下拉列表-->
-        <button class="select">所在地</button>
-        <button class="select">食宿</button>
-        <button class="select">病人情况</button>
+        <div class="select">
+            <button>所在地</button>
+            <ul>
+                <li>北京</li>
+                <li>上海</li>
+                <li>深圳</li>
+                <li>广州</li>
+            </ul>
+        </div>
+        <div class="select">
+            <button>食宿</button>
+            <ul>
+                <li>包吃</li>
+                <li>包住</li>
+                <li>包吃住</li>
+                <li>不包</li>
+            </ul>
+        </div>
+        <div class="select">
+            <button>病人情况</button>
+            <ul>
+                <li>其他</li>
+            </ul>
+        </div>
     </div>
 
     <div class="main"><!--items内容-->
@@ -61,10 +85,16 @@
 
 
     <div class="foot"><!--页脚-->
-        <div class="home"><button>首页</button></div>
-        <div class="write"><button></button></div>
+        <div class="home">
+            <button>首页</button>
+        </div>
+        <div class="write">
+            <button></button>
+        </div>
         <!--<img src="images/Write.png" alt="">-->
-        <div class="self"><button>我的</button></div>
+        <div class="self">
+            <button>我的</button>
+        </div>
     </div>
 
 </div>
