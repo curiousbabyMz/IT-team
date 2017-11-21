@@ -59,7 +59,7 @@ body{
 .main {
     overflow: auto;
     padding: 0 30px;
-    height: 500px;
+    height:80vh;
     font-size: 16px;
     /*background-color: green;*/
 }
@@ -123,25 +123,31 @@ body{
     padding: 40px 0;
 }
 .home{
+
+}
+.home>button{
     background-image: url(images/sprite.png);
-    background-size: auto;
+    background-size: 200px;
     color: #5ac0ce;
-    padding: 50px 8px 0;
+    font-size: 12px;
+    padding: 40px 4px 0;
 }
 .write{
     padding: 0 14%;
 }
 .write>button{
     background-image: url(images/sprite.png);
-    background-position: -100px 0;
-    background-size: auto;
-    padding: 47px;
+    background-position: -75px 0;
+    background-size: 218px;
+    padding: 35px;
 }
-.self{
+.self>button{
     background-image: url(images/sprite.png);
-    background-position: 0 -150px;
+    background-position: 0 -103px;
+    background-size: 200px;
     color: #999999;
-    padding: 45px 5px 0;
+    font-size: 12px;
+    padding: 40px 3px 0;
 }
 
 

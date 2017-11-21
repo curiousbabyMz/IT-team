@@ -1,109 +1,116 @@
-
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    button:active{
+    button:active {
         color: #23918c;
         /*background-color: rgb(164,265,273);*/
     }
 }
-    body {
-        background-color: #eff0f4;
-        margin: 0
-    }
 
-    /*.container {
-        margin: 0
-    }*/
+body {
+    background-color: #eff0f4;
+    margin: 0
+}
 
-    .head {
-        background-color: #68cdd5;
-        height: 44px;
-        line-height: 44px;
-        padding: 0 15px;
-        text-align: center;
-        color: #fff;;
-    }
+/*.container {
+    margin: 0
+}*/
 
-    /*[class*="head-"] {
-        background-color: #68cdd5;
+.head {
+    background-color: #68cdd5;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 15px;
+    text-align: center;
+    color: #fff;;
+}
+
+/*[class*="head-"] {
+    background-color: #68cdd5;
+border: none;
+margin: auto 0;
+}*/
+
+.head-close {
+    float: left;
+    padding: 11px 0;
+    font-size: 16px;
+    /*font-weight: lighter;*/
+}
+
+.head-login {
+    font-size: 19px;
+    /*font-weight: lighter;*/
+}
+
+.head-register {
+    float: right;
+    height: 44px;
+    font-size: 16px;
+    /*font-weight: lighter;*/
+}
+
+.phonenum {
+    margin-top: 8px;
+    /*width: 100%;*/
+    background-color: #fff;
+}
+
+.password {
+    margin-top: 7px;
+    /*width: 100%;*/
+    background-color: #fff;
+}
+
+.login {
+    margin-top: 34.5px;
+    line-height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #68cdd5;
+    /*color: #fff;*/
+    /*text-align: center;*/
+    font-size: 20px;
+}
+
+.forget {
+    margin-top: 10px;
+    float: right;
+    font-size: 15px;
+    color: #68cdd5;
+}
+
+input::placeholder {
+    color: lightgray;
+}
+
+input {
+    height: 50px;
+    font-size: 14px;
+    width: 100%;
     border: none;
-    margin: auto 0;
-    }*/
+    outline: none;
+    text-indent: 60px;
+    background: no-repeat;
+}
 
-    .head-close {
-        float: left;
-        padding: 11px 0;
-        font-size: 16px;
-        /*font-weight: lighter;*/
-    }
+.phonenum > input {
+    background-image: url(icorn_03.jpg);
+    background-size: contain;
+}
 
-    .head-login {
-        font-size: 19px;
-        /*font-weight: lighter;*/
-    }
+.password > input {
+    background-image: url(icorn_06.jpg);
+    background-size: contain;
+}
 
-    .head-register {
-        float: right;
-        height: 44px;
-        font-size: 16px;
-        /*font-weight: lighter;*/
-    }
+/*[type="text"]{width: 62%}*/
+button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
 
-    .phonenum {
-        margin-top: 8px;
-        /*width: 100%;*/
-        background-color: #fff;
-    }
-
-    .password {
-        margin-top: 7px;
-        /*width: 100%;*/
-        background-color: #fff;
-    }
-
-    .login {
-        margin-top: 34.5px;
-        line-height: 50px;
-        border-radius: 5px;
-        width: 100%;
-        background-color: #68cdd5;
-        /*color: #fff;*/
-        /*text-align: center;*/
-        font-size: 20px;
-    }
-
-    .forget {
-        margin-top: 10px;
-        float: right;
-        font-size: 15px;
-        color: #68cdd5;
-    }
-    input::placeholder{color: lightgray;}
-    input {
-        height: 50px;
-        font-size: 14px;
-        width: 100%;
-        border: none;
-        outline: none;
-        text-indent:60px;
-        background: no-repeat;
-    }
-    .phonenum>input{
-        background-image: url(icorn_03.jpg);
-        background-size: contain;
-    }
-    .password>input{
-        background-image: url(icorn_06.jpg);
-        background-size: contain;
-    }
-    /*[type="text"]{width: 62%}*/
-    button {
-        border: none;
-        background-color: rgba(0, 0, 0, 0);
-        color: #fff;
-    }
-
-    /*img {*/
-        /*height: 40px;*/
-        /*padding: 0 40px;*/
-    /*}*/
+/*img {*/
+/*height: 40px;*/
+/*padding: 0 40px;*/
+/*}*/
 
