@@ -20,6 +20,7 @@ body {
 }
 
 .head {
+
     height: 53px;
     line-height: 45px;
     background-color: #5ac0ce;
@@ -29,7 +30,7 @@ body {
 .nav {
     display: inline-block;
     padding-top: 6px;
-    padding-left: 40px;
+    /*padding-left: 40px;*/
 }
 
 .nav > button {
@@ -43,11 +44,13 @@ body {
 
 .nav > button:focus {
     background-color: #fff;
-    color: #5ac0ce
+    color: #5ac0ce;
 }
 
 .map {
     display: inline;
+    position: absolute;
+    left: 88%;
     float: right;
     padding-right: 15px;
 }
@@ -63,21 +66,27 @@ body {
 }
 
 .select {
+    position: relative;
     display: inline-block;
     width: 33.33%;
     float: left;
 }
-
+.select-icorn{
+    position: absolute;
+    padding: 8px;
+    background-image: url(images/sprite.png);
+    background-position: 0 -200px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    top:15px;
+    left: 85%;
+}
 .select > button {
     font-size: 16px;
     color: #9e9e9e;
     padding: 12px 0;
     width: 100%;
     text-align: center;
-    background-image: url(images/sprite.png);
-    /* height: 80px; */
-    /* background-size: auto; */
-    background-position: -120px -212px;
 }
 
 .main {
@@ -210,9 +219,9 @@ button {
 ul {
     list-style-type: none;
     position: absolute;
-    top: 98px;
+    /*top: 98px;*/
     background-color: #fff;
-    width: 33.33%;
+    width:100%;
     display: none;
 }
 
