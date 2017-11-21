@@ -78,7 +78,7 @@ body{
     text-overflow:ellipsis;
     width: 100%;
 }
-.item-right{float: right;line-height: 118px;height: 112px;word-spacing: 12px;}
+.item-right{float: right;line-height: 110px;word-spacing: 12px;}
 .timetitle{
     background-image: url(images/sprite.png);
     background-position: -200px -50px ;
@@ -99,14 +99,15 @@ body{
 }
 .pay{
     display: inline-block;
-    font-size: 21px;
+    font-size: 18px;
 }
 .item-in{
     display: inline-block;
     background-image: url(images/sprite.png);
-    background-position: -50px 0;
+    background-position: -30px 0;
     background-repeat: no-repeat;
-    padding: 20px 10px;
+    background-size: 180px;
+    padding: 13px 10px;
     vertical-align: middle;
 }
 
