@@ -6,13 +6,13 @@ body{
 .container{
     display: flex;
     height: 100vh;
-    width:90.138vw;
+    width:100vw;
     flex-direction: column;
 
 }
 .head{
-    line-height: 11.111vw;
-    font-size: 4.86111vw;
+    line-height: 80px;
+    font-size: 35px;
     color: #fff;
     background-color: #68cdd5;
     /*display: flex;*/
@@ -23,9 +23,9 @@ body{
 .back{
     /*flex: none;*/
     float: left;
-    padding:2.7777vw;
-    height: 11.111vw;
-    font-size: 4.16666vw;
+    padding:20px;
+    height: 80px;
+    font-size: 30px;
 }
 .main{
     flex: 1;
@@ -36,10 +36,10 @@ body{
     display: flex;
     background-color:rgba(104,205,213,0.4);
     justify-content: center;
-    margin-bottom:5.5555vw;
+    margin-bottom:40px;
 }
 .person-info{
-    height: 45.55555vw;
+    height: 328px;
     display: flex;
     /*align-items: baseline;*/
     background-image: url(personal-background.jpg);
@@ -47,27 +47,27 @@ body{
 }
 .photo {
 
-    margin: 10.55555vw 0 0 4.1666666vw;
+    margin: 76px 0 0 30px;
     background-image: url(photo.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 23.4722222vw;
+    width: 169px;
 }
 .name{
-    margin: 16.111111vw 0 0 5.5555555vw;
-    font-size: 4vw;
+    margin: 116px 0 0 40px;
+    font-size: 28px;
 }
 
 .info{
     display: flex;
     flex-direction: column;
     /*padding-left: 30px;*/
-    font-size: 6.25vw;
+    font-size: 45px;
 }
 .info>div{
     display: flex;
     justify-content: flex-start;
-    padding:6.944444vw 0;
+    padding:50px 0;
     border-bottom: 1px solid #9e9e9e;
 
 }
@@ -76,7 +76,7 @@ body{
 }
 .info>div span:nth-of-type(3){
     flex: auto;
-    font-size: 5vw;
+    font-size: 36px;
 }
 
 
@@ -88,17 +88,17 @@ body{
 button{
     background-color: rgba(1,1,1,0);
     border: none;
-    font-size: 2.7777vw;
+    font-size: 20px;
     color: #fff;
 }
 .foot>button{
     background-color: #68cdd5;
     color: #fff;
-    border-radius: 1.3888888vw;
+    border-radius: 10px;
     flex:none;
-    width:43.055vw;
-    height: 12.2222vw;
-    margin: 0 1.73611vw;
+    width:310px;
+    height: 88px;
+    margin: 0 12px;
 }
 @media screen and (min-width: 768px) {
     button:hover {
@@ -106,7 +106,7 @@ button{
     }
 }
 button:active{color: #23918c}
-span{padding: 0 6.944444vw;}
+span{padding: 0 50px;}
 .gray{
     color: #777;
     flex: none;
@@ -116,7 +116,7 @@ span{padding: 0 6.944444vw;}
     color: #68cdd5;
 }
 .l{
-    font-size: 5.5555vw;
+    font-size: 40px;
     color: #ddd;
     padding: 0;
 }
