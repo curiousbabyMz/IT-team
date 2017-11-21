@@ -128,9 +128,10 @@ body{
 .home>button{
     background-image: url(images/sprite.png);
     background-size: 200px;
+    background-position: 1px 0;
     color: #5ac0ce;
     font-size: 12px;
-    padding: 40px 4px 0;
+    padding: 40px 5px 0;
 }
 .write{
     padding: 0 14%;
@@ -143,11 +144,11 @@ body{
 }
 .self>button{
     background-image: url(images/sprite.png);
-    background-position: 0 -103px;
+    background-position: 2px -103px;
     background-size: 200px;
     color: #999999;
     font-size: 12px;
-    padding: 40px 3px 0;
+    padding: 40px 5px 0;
 }
 
 
