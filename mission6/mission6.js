@@ -39,7 +39,7 @@ function newitem() {
         "            <div class=\"address gray\">" + newinfo[0] + "</div>\n" +
         "                </div>\n" +
         "                <div class=\"item-right\">\n" +
-        "                <div class=\"pay red\">" + newinfo[1] + "</div>\n" +
+        "                <div class=\"pay red\">" + newinfo[1] + "元/小时</div>\n" +
         "            <div class=\"item-in\"></div>\n" +
         "                </div>\n" +
         "                </div>";
