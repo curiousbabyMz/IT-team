@@ -136,9 +136,15 @@ button{
     color: #fff;
     border-radius: 10px;
     flex:none;
-    width: 150px;
+    width: 40%;
     height: 50px;
     margin: 0 12px;
+    outline: none;
+}
+.foot>button:active{
+    border: 1px solid #23918c;
+    background-color: #fff;
+    color: #23918c;
 }
 @media screen and (min-width: 768px) {
     button:hover {
