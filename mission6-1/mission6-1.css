@@ -38,7 +38,7 @@
 }
 
 .foot{
-    border-top:1px solid #f0eae8;
+    border-top:1px solid rgba(250,250,250,0.4);
     height: 88px;
 }
 .foot button{
