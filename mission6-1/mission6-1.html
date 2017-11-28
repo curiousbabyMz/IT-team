@@ -2,12 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,height=device-height,initial-scale=1,user-scalable=no"/>
     <title>mission6-bootstrap版</title>
 
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="mission6-1.css">
 </head>
 <body>
-
+<div class="container-fluid">
+    <div class="navbar-fixed-top head">
+        <div class="row head-nav">
+            <div class="col-xs-6 col-xs-offset-3">
+                <button class="col-xs-6 btn btn-info">找雇主</button>
+                <button class="col-xs-6 btn">找护工</button>
+            </div>
+            <div class="col-xs-2 col-xs-offset-1"><button class="btnmap"><img src="images/map.png" class="img-responsive"></button></div>
+        </div>
+        <div class="col-xs-12 btn-group" role="group">
+            <ul class="list-unstyled text-center col-xs-4">
+                <button class="btn btn-default col-xs-12 btn-lg"><span class="d-icorn"></span>所在地</button>
+                <li>北京</li>
+                <li>上海</li>
+                <li>广州</li>
+                <li>深圳</li>
+            </ul>
+            <ul class="text-center list-unstyled col-xs-4">
+                <button class="btn btn-default col-xs-12 btn-lg">食宿</button>
+                <li>包吃住</li>
+                <li>包吃</li>
+                <li>包住</li>
+                <li>不包</li>
+            </ul>
+            <ul class="list-unstyled text-center col-xs-4">
+                <button class="btn btn-default col-xs-12 btn-lg">病人情况</button>
+                <li>其他</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main container"></div>
+    <div class="navbar-fixed-bottom foot">
+        <div class="col-xs-4">
+            <button class="col-xs-9 pull-right"><img src="images/home.png" class="img-responsive">首页</button>
+        </div>
+        <div class="col-xs-4">
+            <button><img src="images/Write.png" class="img-responsive"></button>
+        </div>
+        <div class="col-xs-4">
+            <button class="col-xs-8"><img src="images/person.png" class="img-responsive">我的</button>
+        </div>
+    </div>
+</div>
 </body>
 </html>
