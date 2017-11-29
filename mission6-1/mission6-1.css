@@ -68,10 +68,10 @@ body {
 }
 .item > div:nth-of-type(2){
 }
-.item > div:nth-of-type(2) > span {
-    line-height: 8rem;
-    vertical-align: middle;
-}
+/*.item > div:nth-of-type(2) > span {*/
+    /*line-height: 8rem;*/
+    /*vertical-align: middle;*/
+/*}*/
 
 .date {
     color: #000;
@@ -106,5 +106,6 @@ button {
 li {
     display: none;
 }
-span{
+p{
+    margin: 25% 0;
 }
