@@ -44,10 +44,17 @@ body {
     color: #777777;
     font-size: 16px;
 }
+.d-icorn{
+    border-top: 5px solid #000;
+    border-left: 5px solid rgba(0,0,0,0);
+    border-right: 5px solid rgba(0,0,0,0);
+    border-bottom: 1px solid rgba(0,0,0,0);
+    margin-top: 9%;
+}
 
 .main {
     margin-top: 27%;
-    margin-left: 15px;
+    /*margin-left: 15px;*/
 }
 
 .item {
@@ -81,6 +88,7 @@ body {
 .foot {
     border-top: 1px solid rgba(233, 233, 233, 0.25);
     height: 88px;
+    background-color: #fff;
 }
 
 .foot button {
