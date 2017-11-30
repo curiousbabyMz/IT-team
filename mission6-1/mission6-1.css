@@ -35,12 +35,14 @@ body {
 }
 
 .btn-group {
-    padding: 0;
-    border-bottom: 1px solid rgba(200,200,200,0.5);
+    padding: 0 15px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
 }
-.btn-group>div{
+
+.btn-group > div {
     padding: 0;
 }
+
 /*.btn-group > ul {*/
 /*padding: 0;*/
 /*margin-bottom: 0;*/
@@ -53,6 +55,11 @@ body {
     color: #777;
     /*padding-left: 0;*/
     /*padding-right: 0;*/
+}
+
+.dropdown-menu {
+    text-align: center;
+    min-width: 100%;
 }
 
 .d-icorn {
@@ -103,7 +110,7 @@ body {
 }
 
 .foot {
-    border-top: 1px solid rgba(200,200,200,0.5);
+    border-top: 1px solid rgba(200, 200, 200, 0.5);
     height: 100px;
     background-color: #fff;
     text-align: center;
@@ -119,7 +126,6 @@ body {
     /*line-height: 30px;*/
 }
 
-
 .foot > div:nth-of-type(3) > button {
     color: #9e9e9e;
     /*line-height: 45px;*/
@@ -132,10 +138,5 @@ button {
 }
 
 ul {
-    /*display: none;*/
-    background-color: RGBA(255, 255, 255, 0.5);
-    text-align: center;
     color: #777777;
-    font-size: 18px;
-    text-indent: 25%;
 }
