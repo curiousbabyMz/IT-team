@@ -36,6 +36,7 @@ body {
 
 .btn-group {
     padding: 0;
+    border-bottom: 1px solid rgba(200,200,200,0.5);
 }
 .btn-group>div{
     padding: 0;
@@ -64,7 +65,8 @@ body {
 
 .main {
     margin-top: 105px;
-    overflow: auto;
+    margin-bottom: 100px;
+    /*overflow: auto;*/
     /*margin-left: 15px;*/
 }
 
@@ -101,7 +103,7 @@ body {
 }
 
 .foot {
-    border-top: 1px solid rgba(233, 233, 233, 0.25);
+    border-top: 1px solid rgba(200,200,200,0.5);
     height: 100px;
     background-color: #fff;
     text-align: center;
