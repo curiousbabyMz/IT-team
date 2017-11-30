@@ -69,3 +69,13 @@ body {
     background-color: #d7dadb;
     margin: 0;
 }
+
+
+.foot{
+    background-color: #29bde0;
+}
+.foot>div{
+    padding: 10px 30%;
+    margin: 5px 0;
+    font-size: xx-large;
+}
