@@ -64,10 +64,8 @@ body {
 }
 
 .d-icorn {
-    border-top: 5px solid #000;
-    border-left: 5px solid rgba(0, 0, 0, 0);
-    border-right: 5px solid rgba(0, 0, 0, 0);
-    border-bottom: 0 solid rgba(0, 0, 0, 0);
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-top-color: #000;
     margin-top: 8px;
 }
 
@@ -152,9 +150,7 @@ ul {
 }
 /*region sprite背景图片*/
 .btnmap {
-    background: none;
-    background-image: url(images/sprite.png);
-    background-position: 10px -55px;
+    background: url(images/sprite.png) 10px -55px;
     background-size: 400% auto;
     width: 45px;
     height: 36px;
@@ -162,38 +158,32 @@ ul {
 
 .calendar {
     display: inline-block;
-    background-image: url(images/sprite.png);
-    background-position: -200px -50px;
+    background: url(images/sprite.png) -200px -50px;
     padding: 15px;
 
 }
 .smmap{
     display: inline-block;
-    background-image: url(images/sprite.png);
-    background-position: -200px 0;
+    background: url(images/sprite.png) -200px 0;
     padding: 12px;
 }
 .arrow{
     display: inline-block;
-    background-image: url(images/sprite.png);
-    background-position: -50px 0;
+    background: url(images/sprite.png) -50px 0;
     padding: 17px;
 }
 .home {
-    background-image: url(images/sprite.png);
-    background-position: 0 0;
+    background: url(images/sprite.png) 0 0;
     padding: 40px 7px;
 }
 
 .write {
-    background-image: url(images/sprite.png);
-    background-position: -100px 0;
+    background: url(images/sprite.png) -100px 0;
     padding: 47px;
 }
 
 .self {
-    background-image: url(images/sprite.png);
-    background-position: 0 -150px;
+    background: url(images/sprite.png) 0 -150px;
     padding: 40px 5px;
 }
 
