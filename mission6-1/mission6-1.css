@@ -147,8 +147,7 @@ ul {
 
 .dropdown:nth-of-type(1),.dropdown:nth-of-type(2){
     border-right: 1px solid;
-    border-image: linear-gradient(rgba(200, 200, 200, 0), rgba(200, 200, 200, 1), rgba(200, 200, 200, 0));
-    border-image-slice: 1;
+    border-image: linear-gradient(rgba(200, 200, 200, 0), rgba(200, 200, 200, 1), rgba(200, 200, 200, 0)) 1;
 }
 /*region sprite背景图片*/
 .btnmap {
