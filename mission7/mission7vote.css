@@ -1,13 +1,22 @@
-body {
-    color: #777777;
-}
 
 .head {
     background-color: #29bde0;
     padding: 10px 0;
+    color: #fff;
 }
-.options{
-    margin-left: 15px;
+.speak{
+    margin-top: 60px;
+    padding: 5px 0;
+    font-family:"Adobe 黑体 Std R",sans-serif;
+    background-color: #d4f6f8;
+    line-height: 55px;
+}
+.underspeak{
+    border: 10px solid rgba(0,0,0,0);
+    border-bottom: none;
+    border-top-color: #d4f6f8;
+    width: 5px;
+    margin-left: 8%;
 }
 .main{
     margin-top: 61px;
@@ -19,58 +28,6 @@ body {
     padding: 20px 0;
 }
 
-.items-title {
-    border-bottom: 1px solid #fbb435;
-    color: #fbb435;
-}
-
-.item {
-    margin: 20px 0;
-}
-
-.game-mode {
-    color: #fff;
-    width: 80%;
-    line-height: 60px;
-    border-radius: 0;
-    background-color: #29bde0;
-    margin-bottom: 10px;
-}
-
-.arrow {
-    position: absolute;
-    top: 5%;
-    left: 82vw;
-
-}
-
-.arrow2 {
-    position: absolute;
-    top: 44%;
-    left: 85vw;
-}
-.arrow2>div{
-    border-top: 20px solid rgba(0, 0, 0, 0);
-    border-bottom: 20px solid rgba(0, 0, 0, 0);
-    border-left: 20px solid #fbb435;
-    border-right: 0 solid rgba(0, 0, 0, 0);
-}
-.cricle{
-    display: inline-block;
-    padding: 5px;
-    border-radius: 50%;
-    background-color: #29bde0;
-    margin: 0;
-}
-.cricle1{
-    display: inline-block;
-    padding: 5px;
-    border-radius: 50%;
-    background-color: #d7dadb;
-    margin: 0;
-}
-
-
 .foot{
     background-color: #29bde0;
 }
@@ -79,3 +36,24 @@ body {
     margin: 10px 0;
     font-size: xx-large;
 }
+
+[class*=btn]{
+    /*background;*/
+    border-radius: 0;
+}
+
+/*region 背景图标*/
+.options{
+    background: url(material/sprite.png) 13px 0;
+    padding: 20px;
+    /*margin-left: 30px;*/
+}
+.head-close{
+    background: url(material/sprite.png) -87px 0;
+    padding: 18px;
+}
+.play{
+    background: url(material/sprite.png) -195px 0;
+    padding: 26px;
+}
+/*endregion*/
