@@ -40,14 +40,14 @@ body {
 .arrow {
     position: absolute;
     top: 5%;
-    left: 82vw;
+    right: 15px;
 
 }
 
 .arrow2 {
     position: absolute;
     top: 44%;
-    left: 85vw;
+    right:10px;
 }
 .arrow2>div{
     border-top: 20px solid rgba(0, 0, 0, 0);
