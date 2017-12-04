@@ -76,12 +76,12 @@
 }
 
 .head-close {
-    background: url(material/sprite.png) no-repeat -87px 0;
+    background: url(material/sprite.png) no-repeat -240px 0;
     padding: 18px;
 }
 
 .play {
-    background: url(material/sprite.png) no-repeat -195px 0;
+    background: url(material/sprite.png) no-repeat -250px -100px;
     padding: 26px;
 }
 
@@ -91,17 +91,17 @@
 }
 
 .search {
-    background: url(material/sprite.png) no-repeat -50px -100px;
+    background: url(material/sprite.png) no-repeat 0 -150px;
     padding: 10px;
 }
 
 .tag {
-    background: url(material/sprite.png) no-repeat -100px -100px;
+    background: url(material/sprite.png) no-repeat 0 -200px;
     padding: 10px;
 }
 
 .cure {
-    background: url(material/sprite.png) no-repeat -150px -100px;
+    background: url(material/sprite.png) no-repeat 0 -250px;
     padding: 10px;
 }
 
