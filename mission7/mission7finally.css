@@ -16,6 +16,10 @@
 .final-info{
     border-bottom: 1px solid #3aa9bf;
 }
+.info-{
+    background: #fff;
+    height: 500px;
+}
 .final-info>p:nth-of-type(1){
     font-size: 23px;
     color: #ffc865;
