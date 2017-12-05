@@ -44,25 +44,28 @@
     z-index: -1;
 }
 
-.item {
+.itemin {
     border: 5px solid #fff;
     box-shadow: 1px 1px 2px rgba(197, 191, 189, 0.9);
     text-align: center;
     padding: 0;
 }
-
+.item:hover .xsbtn{
+    display: block;
+}
 .xsbtn {
     /*padding-left: 6px;*/
+    display: none;
     text-align: center;
     padding-top: 100px;
 }
-.item > div:nth-of-type(1) {
+.itemin > div:nth-of-type(1) {
     font-size: 18px;
     padding: 20px 0;
     background-color: #f5c97b;
 }
 
-.item > div:nth-of-type(2) {
+.itemin > div:nth-of-type(2) {
     font-size: 16px;
     /*padding: 1px 0;*/
     background-color: #83b09a;
