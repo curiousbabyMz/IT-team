@@ -1,0 +1,75 @@
+* {
+    text-align: center;
+    /*vertical-align: middle;*/
+}
+
+.head {
+    background: #29bde0;
+    border-bottom: 1px solid #62cee8;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.main{
+    margin-top: 50px;
+}
+.final-info{
+    border-bottom: 1px solid #3aa9bf;
+}
+.final-info>p:nth-of-type(1){
+    font-size: 23px;
+    color: #ffc865;
+}
+.final-info>p:nth-of-type(2){
+    font-size: 18px;
+    color: #fff;
+    /*word-spacing: 18px;*/
+    line-height: 25px;
+}
+/*.win>div{*/
+    /*font-size: 30px;*/
+    /*position: absolute;*/
+    /*top: 100px;*/
+/*}*/
+.foot{
+    background: rgba(41, 189, 224, 0.37);
+}
+.foot .btn{
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    line-height: 48px;
+    margin: 10px 0;
+}
+
+/*region 背景图片*/
+.home,.home:active {
+    background: url(material/sprite1.png) 0 0;
+    padding: 21px 0;
+}
+
+.info,.info:active {
+    background: url(material/sprite1.png) 0 -100px;
+    padding: 21px 20px;
+}
+.home,.info{
+    background-repeat: no-repeat;
+}
+.win{
+    background: url(material/sprite1.png) 0 -150px;
+    line-height: 328px;
+    font-size: 47px;
+    color: #fff;
+    margin-top: 20px;
+    height: 206px;
+    width: 350px;
+    display: inline-block;
+}
+/*endregion*/
+.under{
+    background:#29bde0;
+    position: fixed;
+    height:100vh;
+    width: 100%;
+    z-index: -1;
+}
