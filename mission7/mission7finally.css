@@ -16,7 +16,10 @@
 .final-info{
     border-bottom: 1px solid #3aa9bf;
 }
-.info-{
+.nsbp{
+    padding:0.5em;
+}
+.info2{
     background: #fff;
     height: 500px;
 }
