@@ -60,7 +60,7 @@
     background-repeat: no-repeat;
 }
 .win{
-    background: url(material/sprite1.png) 0 -150px;
+    background: url(material/sprite1.png) -150px 0;
     line-height: 328px;
     font-size: 47px;
     color: #fff;
