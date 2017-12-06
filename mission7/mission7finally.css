@@ -4,7 +4,7 @@
 }
 
 .head {
-    background: #29bde0;
+    background: #2094b2;
     border-bottom: 1px solid #62cee8;
     height: 50px;
     color: #fff;
@@ -21,7 +21,13 @@
 }
 .info2{
     background: #fff;
-    height: 500px;
+    /*height: 500px;*/
+    border-bottom: 1px solid #a6a6a6;
+    padding: 0 30px;
+}
+.gray{
+    color: #a6a6a6;
+    letter-spacing: 0.15em;
 }
 .final-info>p:nth-of-type(1){
     font-size: 23px;
@@ -38,6 +44,10 @@
     /*position: absolute;*/
     /*top: 100px;*/
 /*}*/
+.fix{
+    height: 80px;
+    background-color: #2094b2;
+}
 .foot{
     background: rgba(41, 189, 224, 0.37);
 }
