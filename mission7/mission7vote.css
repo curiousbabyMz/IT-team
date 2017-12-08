@@ -4,7 +4,10 @@
     padding: 15px 0;
     color: #fff;
 }
-
+.title{
+    font-family: sans-serif;
+    font-size: 28px;
+}
 .speak {
     /*margin-top: 60px;*/
     padding: 5px 0;
@@ -96,13 +99,13 @@
 .head-close,.head-close:active {
     background: url(material/sprite.png) no-repeat -240px 0;
     min-height: 37px;
-    min-width: 56px;
+    min-width: 60px;
 }
 
 .play,.play:active {
     background: url(material/sprite.png) no-repeat -250px -100px;
     min-height: 53px;
-    min-width: 55px;
+    min-width: 60px;
 }
 
 .kill,.kill:active {
