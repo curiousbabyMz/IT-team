@@ -1,7 +1,7 @@
 
 .head>.row:nth-of-type(1) {
     background-color: #29bde0;
-    padding: 15px;
+    padding: 15px 0;
     color: #fff;
 }
 
@@ -20,14 +20,6 @@
     border-top-color: #d4f6f8;
     width: 5px;
     margin-left: 8%;
-}
-
-.head1 {
-    /*background-color: #2f8399;*/
-    /*position: relative;*/
-    /*height: 100vh;*/
-    /*z-index: -1;*/
-    /*margin-top: 10px;*/
 }
 
 .main {
@@ -96,18 +88,21 @@
 /*region 背景图标*/
 .options,.options:active {
     background: url(material/sprite.png) no-repeat 13px 0;
-    height: 41px;
+    min-height: 41px;
+    min-width: 55px;
     /*margin-left: 30px;*/
 }
 
 .head-close,.head-close:active {
     background: url(material/sprite.png) no-repeat -240px 0;
-    height: 37px;
+    min-height: 37px;
+    min-width: 56px;
 }
 
 .play,.play:active {
     background: url(material/sprite.png) no-repeat -250px -100px;
-    height: 53px;
+    min-height: 53px;
+    min-width: 55px;
 }
 
 .kill,.kill:active {
