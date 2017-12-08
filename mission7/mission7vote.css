@@ -60,17 +60,17 @@
     /*display: none;*/
     opacity: 0;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 85px;
 }
 .itemin > div:nth-of-type(1) {
-    font-size: 18px;
-    padding: 20px 0;
+    /*font-size: 18px;*/
+    padding: 18% 0;
     background-color: #f5c97b;
 }
 
 .itemin > div:nth-of-type(2) {
-    font-size: 16px;
-    /*padding: 1px 0;*/
+    /*font-size: 16px;*/
+    padding: 5% 0;
     background-color: #83b09a;
 }
 
