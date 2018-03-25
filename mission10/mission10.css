@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container > div {
+    padding: 0 10%;
+}
+
+.head {
+    margin: 0 -10%;
+}
+
+.head > * {
+    padding: 0 10%;
+}
+
+.headtop {
+    background-color: #1376dc;
+    color: #fff;
+    height: 25px;
+}
+
+.tel {
+    float: left;
+}
+
+.user {
+    float: right;
+}
+
+a {
+    color: #fff;
+}
+
+.login {
+    padding-right: 5px;
+    border-right: 1px solid white;
+}
+
+.navbar {
+    background-color: #eee;
+    height: 80px;
+    line-height: 80px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+    width: 60%;
+    text-align: right;
+    line-height: 80px;
+}
+
+button {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-top: 0;
+    border-left: 0;
+    border-radius: 10%;
+}
+
+button:hover {
+    background-color: #1277dc;
+    color: #fff;
+}
+
+.progressBar {
+    margin-left: 35%;
+    width: 45%;
+}
+
+.pBar {
+    position: relative;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    width: 25%;
+    /*color: #fff;*/
+}
+.pBar>div:nth-child(1){
+    padding: 40px 0;
+}
+.bar button{
+    /*outline: none;*/
+    border-radius: 50%;
+    border: none;
+    background-color: #ff7f00;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    font-size: 12px;
+    color: #fff;
+}
+.bar .line{
+    position: absolute;
+    top: 49px;
+    height: 5px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ff7f00;
+    z-index: -1;
+}
+.bar1>div:nth-child(2){
+    color: #ccc;
+}
+.bar1 button{
+    /*outline: none;*/
+    border-radius: 50%;
+    border: none;
+    background-color: #ccc;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    font-size: 12px;
+    color: #fff;
+}
+.bar1 .line{
+    position: absolute;
+    top: 49px;
+    height: 5px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ccc;
+    z-index: -1;
+}
+.bar1>div:nth-child(2){
+    color: #ccc;
+}
