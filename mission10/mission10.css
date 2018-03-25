@@ -55,7 +55,7 @@ a {
     line-height: 80px;
 }
 
-button {
+.head button {
     padding: 10px;
     background-color: #fff;
     border: 1px solid #aaa;
@@ -63,8 +63,11 @@ button {
     border-left: 0;
     border-radius: 10%;
 }
+.head button span{
+    font-size: 10px;
+}
 
-button:hover {
+.head button:hover {
     background-color: #1277dc;
     color: #fff;
 }
@@ -72,6 +75,7 @@ button:hover {
 .progressBar {
     margin-left: 35%;
     width: 45%;
+    height: 120px;
 }
 
 .pBar {
@@ -105,8 +109,8 @@ button:hover {
     background-color: #ff7f00;
     z-index: -1;
 }
-.bar1>div:nth-child(2){
-    color: #ccc;
+.bar>div:nth-child(2){
+    color: #ff7f00;
 }
 .bar1 button{
     /*outline: none;*/
